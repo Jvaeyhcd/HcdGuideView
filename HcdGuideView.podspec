@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/Jvaeyhcd/HcdGuideView"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://raw.githubusercontent.com/Jvaeyhcd/HcdGuideView/master/screen.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
