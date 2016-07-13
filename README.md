@@ -56,4 +56,4 @@ NSMutableArray *images = [NSMutableArray new];
                                              andButtonBGColor:[UIColor clearColor]
                                          andButtonBorderColor:[UIColor whiteColor]];
 ```
-You can write this in witch ViewController you want to show guide pages.
+You can write this in which ViewController you want to show guide pages.
