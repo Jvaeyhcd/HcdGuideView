@@ -1,6 +1,7 @@
 HcdGuideView
 ------
-A easy way to add a guide page in your app.
+
+`HcdGuideView` make it is easy to add a guide page in your app.
 
 ![图片](https://raw.githubusercontent.com/Jvaeyhcd/HcdGuideView/master/screen.gif)
 
@@ -15,7 +16,7 @@ A easy way to add a guide page in your app.
 All you need to do is drop `HcdGuideView` files into your project, and add `#include "HcdGuideView.h"` to the top of classes that will use it.
 
 #### Cocoapods
-The recommended approach for installating HcdGuideView is via the [CocoaPods](https://cocoapods.org/) package manager, as it provides flexible dependency management and dead simple installation. For best results, it is recommended that you install via CocoaPods >= 0.28.0 using Git >= 1.8.0 installed via Homebrew.
+The recommended approach for installating `HcdGuideView` is via the [CocoaPods](https://cocoapods.org/) package manager, as it provides flexible dependency management and dead simple installation. For best results, it is recommended that you install via CocoaPods >= 0.28.0 using Git >= 1.8.0 installed via Homebrew.
 
 If you have not install CocoaPods, you can follow [this article](http://www.jvaeyhcd.cc/2016/02/20/CocoaPods%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/) to install it.
 
