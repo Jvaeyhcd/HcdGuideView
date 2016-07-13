@@ -33,6 +33,11 @@
     return instance;
 }
 
+/**
+ *  引导页界面
+ *
+ *  @return 引导页界面
+ */
 - (UICollectionView *)view {
     if (!_view) {
         
@@ -57,6 +62,11 @@
     return _view;
 }
 
+/**
+ *  初始化pageControl
+ *
+ *  @return pageControl
+ */
 - (UIPageControl *)pageControl {
     if (_pageControl == nil) {
         _pageControl = [[UIPageControl alloc] init];
@@ -129,6 +139,14 @@
     return cell;
 }
 
+/**
+ *  计算自适应的图片
+ *
+ *  @param is 需要适应的尺寸
+ *  @param cs 适应到的尺寸
+ *
+ *  @return 适应后的尺寸
+ */
 - (CGSize)adapterSizeImageSize:(CGSize)is compareSize:(CGSize)cs
 {
     CGFloat w = cs.width;
@@ -158,6 +176,7 @@
     [self.view removeFromSuperview];
     [self setWindow:nil];
     [self setView:nil];
+    [self setPageControl:nil];
 }
 
 @end
