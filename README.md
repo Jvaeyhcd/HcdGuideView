@@ -1,8 +1,11 @@
 HcdGuideView
 ------
 [![Version](https://img.shields.io/cocoapods/v/HcdGuideView.svg?style=flat)](http://cocoapods.org/pods/HcdGuideView)
-[![License](https://img.shields.io/cocoapods/l/HcdGuideView.svg)](http://cocoapods.org/pods/HcdGuideView)
 [![Platform](https://img.shields.io/cocoapods/p/HcdGuideView.svg)](http://cocoapods.org/pods/HcdGuideView)
+[![License](https://img.shields.io/github/license/Jvaeyhcd/HcdGuideView.svg)](http://cocoapods.org/pods/HcdGuideView)
+[![Tag](https://img.shields.io/github/tag/Jvaeyhcd/HcdGuideView.svg
+)](http://cocoapods.org/pods/HcdGuideView)
+[![Author](https://img.shields.io/badge/author-Jvaeyhcd-f07c3d.svg)](http://www.jvaeyhcd.cc)
 
 `HcdGuideView` make it is easy to add a guide page in your app.
 
