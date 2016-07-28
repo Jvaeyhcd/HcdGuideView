@@ -22,6 +22,8 @@
     self.title = @"HcdGuideViewDemo";
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.view.backgroundColor = [UIColor redColor];
+    
     NSMutableArray *images = [NSMutableArray new];
     
     [images addObject:[UIImage imageNamed:@"1"]];

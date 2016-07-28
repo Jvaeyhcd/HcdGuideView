@@ -173,6 +173,7 @@
  */
 - (void)nextButtonHandler:(id)sender {
     
+    [self.pageControl removeFromSuperview];
     [self.view removeFromSuperview];
     [self setWindow:nil];
     [self setView:nil];
