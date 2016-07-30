@@ -8,7 +8,7 @@ HcdGuideView
 [![Author](https://img.shields.io/badge/author-Jvaeyhcd-f07c3d.svg)](http://www.jvaeyhcd.cc)
 [![Author](https://img.shields.io/badge/English-README-ff69b4.svg)](https://github.com/Jvaeyhcd/HcdGuideView/blob/master/README.md)
 
-`HcdGuideView`让你为你的app添加一个漂亮的启动页变得简单。
+`HcdGuideView` 让你为你的app添加一个漂亮的启动页变得简单。
 
 ![图片](https://raw.githubusercontent.com/Jvaeyhcd/HcdGuideView/master/screen.gif)
 
@@ -49,7 +49,7 @@ $ pod install
 ``` bash
 $ open YourProject.xcworkspace
 ```
-这样就集成成功了，如果出现错误，可能是Cocoapods版本太低，请更新到最新版本。如果是找不到`HcdGuideView`，请重新`pod setup`一次，然后再`pod search HcdGuideView`看看。
+这样就集成成功了，如果出现错误，可能是Cocoapods版本太低，请更新到最新版本。如果是找不到`HcdGuideView`，请重新`pod setup` 一次，然后再 `pod search HcdGuideView` 看看。
 
 ### 示例
 
