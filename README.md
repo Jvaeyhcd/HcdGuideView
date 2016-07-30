@@ -6,8 +6,9 @@ HcdGuideView
 [![Tag](https://img.shields.io/github/tag/Jvaeyhcd/HcdGuideView.svg
 )](http://cocoapods.org/pods/HcdGuideView)
 [![Author](https://img.shields.io/badge/author-Jvaeyhcd-f07c3d.svg)](http://www.jvaeyhcd.cc)
+[![Author](https://img.shields.io/badge/Chines-README-ff69b4.svg)](https://github.com/Jvaeyhcd/HcdGuideView/blob/master/README.zh.md)
 
-`HcdGuideView` make it is easy to add a guide page in your app.
+`HcdGuideView` make it is easy to add a beautiful guide page in your app.
 
 ![图片](https://raw.githubusercontent.com/Jvaeyhcd/HcdGuideView/master/screen.gif)
 
@@ -63,3 +64,9 @@ NSMutableArray *images = [NSMutableArray new];
                                          andButtonBorderColor:[UIColor whiteColor]];
 ```
 You can write this in which ViewController you want to show guide pages.
+
+### Contact me
+
+If you find some bugs or you have some suggest, please contact me or post me an issue.Thank you!
+
+* Email: chedahuang@icloud.com
