@@ -17,7 +17,7 @@ HcdGuideView
 * iOS 7.0 or higher
 * ARC
 
-### 安装方法
+### 安装方法
 #### 手动安装
 
 所有你需要做的就是将`HcdGuideView`文件加下的所有文件导入到你自己的项目中去，然后在你需要使用的地方导入`#include "HcdGuideView.h"`就可以了。
