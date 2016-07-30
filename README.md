@@ -6,7 +6,7 @@ HcdGuideView
 [![Tag](https://img.shields.io/github/tag/Jvaeyhcd/HcdGuideView.svg
 )](http://cocoapods.org/pods/HcdGuideView)
 [![Author](https://img.shields.io/badge/author-Jvaeyhcd-f07c3d.svg)](http://www.jvaeyhcd.cc)
-[![Author](https://img.shields.io/badge/Chines-README-ff69b4.svg)](https://github.com/Jvaeyhcd/HcdGuideView/blob/master/README.zh.md)
+[![README](https://img.shields.io/badge/Chines-README-ff69b4.svg)](https://github.com/Jvaeyhcd/HcdGuideView/blob/master/README.zh.md)
 
 `HcdGuideView` make it is easy to add a beautiful guide page in your app.
 

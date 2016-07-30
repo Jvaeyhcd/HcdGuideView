@@ -6,7 +6,7 @@ HcdGuideView
 [![Tag](https://img.shields.io/github/tag/Jvaeyhcd/HcdGuideView.svg
 )](http://cocoapods.org/pods/HcdGuideView)
 [![Author](https://img.shields.io/badge/author-Jvaeyhcd-f07c3d.svg)](http://www.jvaeyhcd.cc)
-[![Author](https://img.shields.io/badge/English-README-ff69b4.svg)](https://github.com/Jvaeyhcd/HcdGuideView/blob/master/README.md)
+[![README](https://img.shields.io/badge/English-README-ff69b4.svg)](https://github.com/Jvaeyhcd/HcdGuideView/blob/master/README.md)
 
 `HcdGuideView`让你为你的app添加一个漂亮的启动页变得简单。
 
