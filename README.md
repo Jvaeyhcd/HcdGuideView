@@ -1,5 +1,5 @@
-HcdGuideView
-------
+# HcdGuideView
+
 [![Version](https://img.shields.io/cocoapods/v/HcdGuideView.svg?style=flat)](http://cocoapods.org/pods/HcdGuideView)
 [![Platform](https://img.shields.io/cocoapods/p/HcdGuideView.svg)](http://cocoapods.org/pods/HcdGuideView)
 [![License](https://img.shields.io/github/license/Jvaeyhcd/HcdGuideView.svg)](http://cocoapods.org/pods/HcdGuideView)
@@ -12,17 +12,17 @@ HcdGuideView
 
 ![图片](https://raw.githubusercontent.com/Jvaeyhcd/HcdGuideView/master/screen.gif)
 
-### Requirements
+## Requirements
 * Xcode 6 or higher
 * iOS 7.0 or higher
 * ARC
 
-### Installation
-#### Manual Install
+## Installation
+### Manual Install
 
 All you need to do is drop `HcdGuideView` files into your project, and add `#include "HcdGuideView.h"` to the top of classes that will use it.
 
-#### Cocoapods
+### Cocoapods
 The recommended approach for installating `HcdGuideView` is via the [CocoaPods](https://cocoapods.org/) package manager, as it provides flexible dependency management and dead simple installation. For best results, it is recommended that you install via CocoaPods >= 0.28.0 using Git >= 1.8.0 installed via Homebrew.
 
 If you have not install CocoaPods, you can follow [this article](http://www.jvaeyhcd.cc/2016/02/20/CocoaPods%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/) to install it.
@@ -48,7 +48,7 @@ $ open YourProject.xcworkspace
 ```
 Please note that if your installation fails, it may be because you are installing with a version of Git lower than CocoaPods is expecting. Please ensure that you are running Git >= 1.8.0 by executing `git --version`. You can get a full picture of the installation details by executing `pod install --verbose`.
 
-### Example Usage
+## Example
 
 ``` objc
 NSMutableArray *images = [NSMutableArray new];
@@ -65,7 +65,7 @@ NSMutableArray *images = [NSMutableArray new];
 ```
 You can write this in which ViewController you want to show guide pages.
 
-### Contact me
+## Contact me
 
 If you find some bugs or you have some suggest, please contact me or post me an issue.Thank you!
 
