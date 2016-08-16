@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "HcdGuideView.h"
 
 @interface AppDelegate ()
 
@@ -20,14 +21,22 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc] init]];
-    
-    [[UINavigationBar appearance] setTintColor:[UIColor cyanColor]];
-    
-    [self.window setRootViewController:navController];
+
+    [self.window setRootViewController:[[ViewController alloc] init]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    NSMutableArray *images = [NSMutableArray new];
+    
+    [images addObject:[UIImage imageNamed:@"1"]];
+    [images addObject:[UIImage imageNamed:@"2"]];
+    [images addObject:[UIImage imageNamed:@"3"]];
+    
+    [[HcdGuideViewManager sharedInstance] showGuideViewWithImages:images
+                                                   andButtonTitle:@"立即体验"
+                                              andButtonTitleColor:[UIColor whiteColor]
+                                                 andButtonBGColor:[UIColor clearColor]
+                                             andButtonBorderColor:[UIColor whiteColor]];
     
     return YES;
 }

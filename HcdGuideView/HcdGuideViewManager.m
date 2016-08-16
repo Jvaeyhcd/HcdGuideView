@@ -94,7 +94,7 @@
         self.buttonTitle = title;
         self.titleColor = titleColor;
         self.pageControl.numberOfPages = images.count;
-        self.window = [UIApplication sharedApplication].keyWindow;
+        self.window = [[UIApplication sharedApplication].windows objectAtIndex:0];
         [self.window addSubview:self.view];
         [self.window addSubview:self.pageControl];
         
