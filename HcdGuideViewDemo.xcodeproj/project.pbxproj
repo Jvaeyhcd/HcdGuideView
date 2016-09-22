@@ -12,7 +12,7 @@
 		0C36D4E51D34931B0024F605 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C36D4E41D34931B0024F605 /* ViewController.m */; };
 		0C36D4EA1D34931B0024F605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C36D4E91D34931B0024F605 /* Assets.xcassets */; };
 		0C36D4ED1D34931B0024F605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C36D4EB1D34931B0024F605 /* LaunchScreen.storyboard */; };
-		0C36D4F71D34940B0024F605 /* HcdGuideViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C36D4F61D34940B0024F605 /* HcdGuideViewManager.m */; };
+		0C36D4F71D34940B0024F605 /* HcdGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C36D4F61D34940B0024F605 /* HcdGuideView.m */; };
 		0C36D4FA1D3494740024F605 /* HcdGuideViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C36D4F91D3494740024F605 /* HcdGuideViewCell.m */; };
 		0C36D5081D34A4790024F605 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C36D5051D34A4790024F605 /* 1.png */; };
 		0C36D5091D34A4790024F605 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C36D5061D34A4790024F605 /* 2.png */; };
@@ -29,11 +29,10 @@
 		0C36D4E91D34931B0024F605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C36D4EC1D34931B0024F605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C36D4EE1D34931B0024F605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C36D4F51D34940B0024F605 /* HcdGuideViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HcdGuideViewManager.h; sourceTree = "<group>"; };
-		0C36D4F61D34940B0024F605 /* HcdGuideViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HcdGuideViewManager.m; sourceTree = "<group>"; };
+		0C36D4F51D34940B0024F605 /* HcdGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HcdGuideView.h; sourceTree = "<group>"; };
+		0C36D4F61D34940B0024F605 /* HcdGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HcdGuideView.m; sourceTree = "<group>"; };
 		0C36D4F81D3494740024F605 /* HcdGuideViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HcdGuideViewCell.h; sourceTree = "<group>"; };
 		0C36D4F91D3494740024F605 /* HcdGuideViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HcdGuideViewCell.m; sourceTree = "<group>"; };
-		0C36D4FB1D34948A0024F605 /* HcdGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HcdGuideView.h; sourceTree = "<group>"; };
 		0C36D5051D34A4790024F605 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		0C36D5061D34A4790024F605 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		0C36D5071D34A4790024F605 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
@@ -94,11 +93,10 @@
 		0C36D4F41D3493EF0024F605 /* HcdGuideView */ = {
 			isa = PBXGroup;
 			children = (
-				0C36D4F51D34940B0024F605 /* HcdGuideViewManager.h */,
-				0C36D4F61D34940B0024F605 /* HcdGuideViewManager.m */,
+				0C36D4F51D34940B0024F605 /* HcdGuideView.h */,
+				0C36D4F61D34940B0024F605 /* HcdGuideView.m */,
 				0C36D4F81D3494740024F605 /* HcdGuideViewCell.h */,
 				0C36D4F91D3494740024F605 /* HcdGuideViewCell.m */,
-				0C36D4FB1D34948A0024F605 /* HcdGuideView.h */,
 			);
 			path = HcdGuideView;
 			sourceTree = SOURCE_ROOT;
@@ -189,7 +187,7 @@
 				0C36D4E21D34931B0024F605 /* AppDelegate.m in Sources */,
 				0C36D4DF1D34931B0024F605 /* main.m in Sources */,
 				0C36D4FA1D3494740024F605 /* HcdGuideViewCell.m in Sources */,
-				0C36D4F71D34940B0024F605 /* HcdGuideViewManager.m in Sources */,
+				0C36D4F71D34940B0024F605 /* HcdGuideView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

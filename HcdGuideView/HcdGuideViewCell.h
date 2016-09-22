@@ -6,6 +6,8 @@
 //  Copyright © 2016年 Polesapp. All rights reserved.
 //
 
+#define kHcdGuideViewBounds [UIScreen mainScreen].bounds
+
 #import <UIKit/UIKit.h>
 
 static NSString *kCellIdentifier_HcdGuideViewCell = @"HcdGuideViewCell";

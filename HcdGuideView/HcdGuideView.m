@@ -6,12 +6,11 @@
 //  Copyright © 2016年 Polesapp. All rights reserved.
 //
 
-#import "HcdGuideViewManager.h"
 #import "HcdGuideView.h"
+#import "HcdGuideViewCell.h"
 
-@interface HcdGuideViewManager()<UICollectionViewDelegate, UICollectionViewDataSource, UIScrollViewDelegate>
+@interface HcdGuideView()<UICollectionViewDelegate, UICollectionViewDataSource, UIScrollViewDelegate>
 
-@property (nonatomic, strong) UIWindow *window;
 @property (nonatomic, strong) UICollectionView *view;
 @property (nonatomic, strong) NSArray *images;
 @property (nonatomic, strong) UIPageControl *pageControl;
@@ -22,13 +21,13 @@
 
 @end
 
-@implementation HcdGuideViewManager
+@implementation HcdGuideView
 
 + (instancetype)sharedInstance {
-    static HcdGuideViewManager *instance = nil;
+    static HcdGuideView *instance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        instance = [HcdGuideViewManager new];
+        instance = [HcdGuideView new];
     });
     return instance;
 }
@@ -87,14 +86,18 @@
     //根据版本号来判断是否需要显示引导页，一般来说每更新一个版本引导页都会有相应的修改
     BOOL show = [userDefaults boolForKey:[NSString stringWithFormat:@"version_%@", version]];
     
-    if (!show && nil == self.window) {
+    if (!show) {
         self.images = images;
         self.buttonBorderColor = borderColor;
         self.buttonBgColor = bgColor;
         self.buttonTitle = title;
         self.titleColor = titleColor;
         self.pageControl.numberOfPages = images.count;
-        self.window = [[UIApplication sharedApplication].windows objectAtIndex:0];
+        
+        if (nil == self.window) {
+            self.window = [UIApplication sharedApplication].keyWindow;
+        }
+        
         [self.window addSubview:self.view];
         [self.window addSubview:self.pageControl];
         
@@ -130,7 +133,7 @@
         [cell.button addTarget:self action:@selector(nextButtonHandler:) forControlEvents:UIControlEventTouchUpInside];
         [cell.button setBackgroundColor:self.buttonBgColor];
         [cell.button setTitle:self.buttonTitle forState:UIControlStateNormal];
-        [cell.button.titleLabel setTextColor:self.titleColor];
+        [cell.button setTitleColor:self.titleColor forState:UIControlStateNormal];
         cell.button.layer.borderColor = [self.buttonBorderColor CGColor];
     } else {
         [cell.button setHidden:YES];
