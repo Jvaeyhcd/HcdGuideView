@@ -60,17 +60,19 @@ NSMutableArray *images = [NSMutableArray new];
 [images addObject:[UIImage imageNamed:@"2"]];
 [images addObject:[UIImage imageNamed:@"3"]];
 
-[[HcdGuideViewManager sharedInstance] showGuideViewWithImages:images
-                                               andButtonTitle:@"立即体验"
-                                          andButtonTitleColor:[UIColor whiteColor]
-                                             andButtonBGColor:[UIColor clearColor]
-                                         andButtonBorderColor:[UIColor whiteColor]];
+HcdGuideView *guideView = [HcdGuideView sharedInstance];
+guideView.window = self.window;
+[guideView showGuideViewWithImages:images
+                    andButtonTitle:@"立即体验"
+               andButtonTitleColor:[UIColor whiteColor]
+                  andButtonBGColor:[UIColor clearColor]
+              andButtonBorderColor:[UIColor whiteColor]];
 ```
 
 你可以将上面代码放到你想要显示的引导页的地方，一般都放在AppDelegate中。
 
 ### Contact me
 
-如果你发现了一些bug或者有什么建议，请联系我或者直接提交issue给我，谢谢！
+如果你发现了一些bug或者有什么建议，请联系我或者直接提交[issue](https://github.com/Jvaeyhcd/HcdGuideView/issues/new)给我，谢谢！
 
 * 邮箱: chedahuang@icloud.com

@@ -57,11 +57,13 @@ NSMutableArray *images = [NSMutableArray new];
 [images addObject:[UIImage imageNamed:@"2"]];
 [images addObject:[UIImage imageNamed:@"3"]];
 
-[[HcdGuideViewManager sharedInstance] showGuideViewWithImages:images
-                                               andButtonTitle:@"立即体验"
-                                          andButtonTitleColor:[UIColor whiteColor]
-                                             andButtonBGColor:[UIColor clearColor]
-                                         andButtonBorderColor:[UIColor whiteColor]];
+HcdGuideView *guideView = [HcdGuideView sharedInstance];
+guideView.window = self.window;
+[guideView showGuideViewWithImages:images
+                    andButtonTitle:@"立即体验"
+               andButtonTitleColor:[UIColor whiteColor]
+                  andButtonBGColor:[UIColor clearColor]
+              andButtonBorderColor:[UIColor whiteColor]];
 ```
 You can write this in which ViewController you want to show guide pages.
 
