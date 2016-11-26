@@ -14,9 +14,9 @@
 @property (nonatomic, strong) UICollectionView *view;
 @property (nonatomic, strong) NSArray *images;
 @property (nonatomic, strong) UIPageControl *pageControl;
-@property (nonatomic, assign) UIColor *buttonBgColor;
-@property (nonatomic, assign) UIColor *buttonBorderColor;
-@property (nonatomic, assign) UIColor *titleColor;
+@property (nonatomic, strong) UIColor *buttonBgColor;
+@property (nonatomic, strong) UIColor *buttonBorderColor;
+@property (nonatomic, strong) UIColor *titleColor;
 @property (nonatomic, copy  ) NSString *buttonTitle;
 
 @end
